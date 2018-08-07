@@ -9,6 +9,9 @@ wx.config = config
 
 App({
   onLaunch: async function () {
+    // example
+    const location = await wx.pro.getLocation()
+    console.log(location)
     // 登录
     // let code = await wx.config.async.login()
     // let login_res = await wx.config.api.login(code)
