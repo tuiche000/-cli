@@ -1,0 +1,11 @@
+components // 组件存放处，主要作用是重用，建议有三个或以上可以重用的template使用组件
+config // 配置文件
+    api // 所有api处理中心
+    async // 异步代码分装
+    global // 全局变量存放
+    router // 路由变量存放
+    storage // storage变量
+libs // 第三方库
+pages // 页面
+style // 样式
+utils // 工具函数
