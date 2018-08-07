@@ -9,3 +9,4 @@ libs // 第三方库
 pages // 页面
 style // 样式
 utils // 工具函数
+    wxPromise // 敲黑板，把wxAPI接口全部封装成异步的。方便快速开发，配合async更佳！！！
