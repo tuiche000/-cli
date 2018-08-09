@@ -65,5 +65,14 @@ export default {
   isName: function (name) {
     var reg = new RegExp(/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,20}$/)
     return reg.test(name)
+  },
+  /**
+   * [isName 真实姓名]
+   * @param  {[string]}  name [验证的值:中文2-4位或英文2-20位]
+   * @return {Boolean}
+   */
+  isRealName: function (name) {
+    var reg = new RegExp(/^[\u4e00-\u9fa5]{2,4}$|^[a-zA-Z]{2,20}$/)
+    return reg.test(name)
   }
 }
