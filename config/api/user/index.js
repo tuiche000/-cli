@@ -1,4 +1,7 @@
 import config from './config.js';
 
-// login
-config
+const Login = config.Login
+
+export {
+  Login
+}
