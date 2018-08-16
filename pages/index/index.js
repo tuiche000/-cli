@@ -2,6 +2,6 @@
 Page({
   data: {
   },
-  onLoad: async function () {
+  onLoad: function () {
   }
 })
