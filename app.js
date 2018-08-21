@@ -13,7 +13,8 @@ App({
       wx.setStorageSync('lan', 'en')
     }
 
-
+    const a = await wx.config.api.user.Login()
+    console.log(a)
 
     // example 
     // wx.pro

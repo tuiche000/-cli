@@ -4,6 +4,6 @@
   <view>{{content.route.a}}</view>
   <view>{{content.route.b}}</view>
   <text>{{content.a}}</text>
-  <button bindtap='change_language'>切英文</button>
+  <button bindtap='change_language'>切换语言</button>
   <text>{{content.b}}</text>
 </view>

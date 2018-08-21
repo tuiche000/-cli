@@ -1,11 +1,9 @@
 import global from './global/index'
-import async from './async/index'
 import api from './api/index'
-import language from './language/index'
+import lang from './lang/index'
 
 export default {
   global,
-  async,
   api,
-  language
+  lang
 }

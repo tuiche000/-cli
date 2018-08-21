@@ -6,9 +6,9 @@ Page({
   onLoad: function () {
     let current_lan = wx.getStorageSync('lan')
     console.log(current_lan)
-    console.log(wx.config.language.chooseLan(current_lan))
+    console.log(wx.config.lang.chooseLan(current_lan))
     this.setData({
-      content: wx.config.language.chooseLan(current_lan)
+      content: wx.config.lang.chooseLan(current_lan)
     })
   },
   change_language(){
@@ -21,7 +21,7 @@ Page({
     }
     wx.setStorageSync('lan', new_lan)
     this.setData({
-      content: wx.config.language.chooseLan(new_lan)
+      content: wx.config.lang.chooseLan(new_lan)
     })
   }
 })
