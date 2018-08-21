@@ -1,7 +1,6 @@
-import global from '../../global/index.js'
+import global from '../global/index.js'
 const api = {
   LOGIN: 'User/User/Login',
-  LOOUT: '',
 }
 const url = (function() {
   let res = {}

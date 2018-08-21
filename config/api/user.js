@@ -1,8 +1,8 @@
 import config from './config.js' // 引入常量
-import global from '../../global/index.js'
-import regeneratorRuntime from '../../../libs/regenerator-runtime/runtime-module.js';
-import fetch from '../../../utils/fetch.js';
-import pro from '../../../utils/wxPromise'
+import global from '../global/index.js'
+import regeneratorRuntime from '../../libs/regenerator-runtime/runtime-module.js';
+import fetch from '../../utils/fetch.js';
+import pro from '../../utils/wxPromise'
 pro()
 
 export default {
