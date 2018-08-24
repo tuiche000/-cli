@@ -1,8 +1,8 @@
 //app.js
-import pro from './utils/wxPromise'
+import pro from './config/utils/wxPromise'
 pro()
 import regeneratorRuntime from './libs/regenerator-runtime/runtime-module.js';
-import fetch from './utils/fetch.js';
+import fetch from './config/utils/fetch.js';
 import config from './config/index';
 wx.fetch = fetch
 wx.config = config
