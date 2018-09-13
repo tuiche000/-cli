@@ -1,5 +1,7 @@
 export default {
-  /**页面地址 */
-  USERINFO: 'user_info',
-  CART: 'cart'
+  // 用户信息
+  USERINFO: 'userinfo',
+  // 选择门店信息
+  STOREINFO: 'storeinfo',
+  REFUNDGOODS: 'refundGoods'
 }

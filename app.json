@@ -1,12 +1,25 @@
 {
   "pages": [
+    "pages/authorize/index",
     "pages/index/index",
-    "components/list/index"
+    "pages/test/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/test/index",
+        "text": "测试页"
+      }
+    ]
   }
 }

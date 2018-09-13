@@ -38,4 +38,4 @@ const wxPromise = () => {
     }
   }
 }
-export default wxPromise
+export default wxPromise()

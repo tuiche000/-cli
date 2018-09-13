@@ -1,9 +1,12 @@
 import global from './global/index'
-import api from './api/index'
-import lang from './lang/index'
+import api from './api/export/index'
+import router from './router/router'
+import storage from './storage/index'
+import utils from './utils/index'
 
-export default {
-  global,
-  api,
-  lang
-}
+wx.global = global
+wx.api = api
+wx.router = router
+wx.storage = storage
+wx.utils = utils
+wx.fetch = utils.fetch
